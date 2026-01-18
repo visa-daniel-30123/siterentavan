@@ -782,16 +782,38 @@ body {
 
 .social-links {
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .social-links a {
     font-size: 1.5rem;
     transition: transform 0.3s ease;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .social-links a:hover {
     transform: scale(1.2);
+}
+
+.social-links a[aria-label="Facebook"] {
+    color: #1877F2;
+}
+
+.social-links a[aria-label="Facebook"]:hover {
+    color: #42A5F5;
+}
+
+.social-links a[aria-label="Instagram"] {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.social-links a[aria-label="Instagram"]:hover {
+    opacity: 0.8;
 }
 
 .social-links a .instagram-logo,
