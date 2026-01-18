@@ -302,8 +302,9 @@ body {
 
 /* Fleet Section */
 .fleet {
-    padding: 5rem 0;
+    padding: 8rem 0 5rem 0;
     background: var(--bg-light);
+    margin-top: 0;
 }
 
 .section-header {
