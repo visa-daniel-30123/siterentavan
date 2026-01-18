@@ -135,9 +135,9 @@ const carPrice = document.getElementById('carPrice');
 if (cascoCheckbox && carPrice) {
     cascoCheckbox.addEventListener('change', function() {
         if (this.checked) {
-            carPrice.textContent = '79';
+            carPrice.textContent = '75';
         } else {
-            carPrice.textContent = '60';
+            carPrice.textContent = '55';
         }
     });
 }
@@ -149,9 +149,9 @@ const carPrice2 = document.getElementById('carPrice2');
 if (cascoCheckbox2 && carPrice2) {
     cascoCheckbox2.addEventListener('change', function() {
         if (this.checked) {
-            carPrice2.textContent = '79';
+            carPrice2.textContent = '75';
         } else {
-            carPrice2.textContent = '60';
+            carPrice2.textContent = '55';
         }
     });
 }
@@ -163,9 +163,9 @@ const carPrice3 = document.getElementById('carPrice3');
 if (cascoCheckbox3 && carPrice3) {
     cascoCheckbox3.addEventListener('change', function() {
         if (this.checked) {
-            carPrice3.textContent = '79';
+            carPrice3.textContent = '75';
         } else {
-            carPrice3.textContent = '60';
+            carPrice3.textContent = '55';
         }
     });
 }
